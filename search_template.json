@@ -1,5 +1,5 @@
 {
-  "name": "YouTube Search",
+  "name": "Search",
   "version": "1.0.0",
   "type": "list",
   "search": {
@@ -8,10 +8,8 @@
   },
   "items": [
     {
-      "type": "default",
       "icon": "search",
       "label": "Search YouTube",
-      "extensionLabel": "Enter a keyword above to search",
       "action": "panel:search"
     }
   ]

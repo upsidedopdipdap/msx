@@ -1,22 +1,13 @@
 {
-  "name": "Trending - Placeholders",
+  "name": "Trending",
   "version": "1.0.0",
+  "type": "list",
   "items": [
     {
-      "type": "default",
       "icon": "whatshot",
       "label": "NASA Live: Earth from Space",
-      "extensionLabel": "Live Stream",
       "image": "https://img.youtube.com/vi/j5iaV9Y91S0/hqdefault.jpg",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=j5iaV9Y91S0"
-    },
-    {
-      "type": "default",
-      "icon": "whatshot",
-      "label": "4K Nature Relaxing Film",
-      "extensionLabel": "Nature Relaxation",
-      "image": "https://img.youtube.com/vi/668nUCeB864/hqdefault.jpg",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=668nUCeB864"
     }
   ]
 }

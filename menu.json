@@ -1,36 +1,29 @@
 {
-  "name": "MSX Tube Menu",
+  "name": "Main Menu",
   "version": "1.0.0",
   "menu": [
     {
-      "id": "home_menu",
-      "type": "default",
       "icon": "home",
       "label": "Home",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/home.json"
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/home.json"
     },
     {
-      "id": "trending_menu",
-      "type": "default",
       "icon": "whatshot",
       "label": "Trending",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/trending.json"
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/trending.json"
     },
     {
-      "id": "search_menu",
-      "type": "default",
       "icon": "search",
       "label": "Search",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search_template.json"
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/search_template.json"
     }
   ],
   "items": [
     {
       "type": "default",
-      "icon": "play-arrow",
+      "icon": "play_arrow",
       "label": "Welcome to MSX Tube",
-      "extensionLabel": "Choose a category to start",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/home.json"
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/home.json"
     }
   ]
 }

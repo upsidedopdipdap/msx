@@ -1,9 +1,9 @@
 {
-  "name": "Search",
+  "name": "YouTube Search",
   "version": "1.0.0",
   "type": "list",
   "search": {
-    "action": "content:https://ll985fshutiv.share.zrok.io/search?q={query}",
+    "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?query={query}",
     "label": "Search YouTube..."
   },
   "items": [
@@ -11,13 +11,8 @@
       "type": "default",
       "icon": "search",
       "label": "Search YouTube",
+      "extensionLabel": "Enter a keyword above to search",
       "action": "panel:search"
-    },
-    {
-      "type": "default",
-      "icon": "bug-report",
-      "label": "DEBUG: Search Ready",
-      "action": "message:This panel is on GitHub. If you search and it fails, the backend is unreachable."
     }
   ]
 }

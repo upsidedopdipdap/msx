@@ -1,19 +1,30 @@
 {
-  "name": "Home Feed",
+  "name": "Home Feed - Placeholders",
   "version": "1.0.0",
   "items": [
     {
       "type": "default",
-      "icon": "sync",
-      "label": "Click to load Home",
-      "action": "content:https://ll985fshutiv.share.zrok.io/home"
+      "icon": "play-circle-outline",
+      "label": "Rick Astley - Never Gonna Give You Up",
+      "extensionLabel": "Official Music Video",
+      "image": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=dQw4w9WgXcQ"
     },
     {
       "type": "default",
-      "icon": "bug-report",
-      "label": "DEBUG: Loader OK",
-      "extensionLabel": "Target: https://ll985fshutiv.share.zrok.io/home",
-      "action": "message:If this fails, your backend or zrok tunnel is down."
+      "icon": "play-circle-outline",
+      "label": "Big Buck Bunny",
+      "extensionLabel": "Blender Open Movie",
+      "image": "https://img.youtube.com/vi/aqz-KE-bpKQ/hqdefault.jpg",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=aqz-KE-bpKQ"
+    },
+    {
+      "type": "default",
+      "icon": "play-circle-outline",
+      "label": "Lofi Hip Hop Radio",
+      "extensionLabel": "Beats to Relax/Study to",
+      "image": "https://img.youtube.com/vi/jfKfPfyJRdk/hqdefault.jpg",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=jfKfPfyJRdk"
     }
   ]
 }

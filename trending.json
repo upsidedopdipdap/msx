@@ -1,19 +1,22 @@
 {
-  "name": "Trending Feed",
+  "name": "Trending - Placeholders",
   "version": "1.0.0",
   "items": [
     {
       "type": "default",
       "icon": "whatshot",
-      "label": "Click to load Trending",
-      "action": "content:https://ll985fshutiv.share.zrok.io/trending"
+      "label": "NASA Live: Earth from Space",
+      "extensionLabel": "Live Stream",
+      "image": "https://img.youtube.com/vi/j5iaV9Y91S0/hqdefault.jpg",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=j5iaV9Y91S0"
     },
     {
       "type": "default",
-      "icon": "bug-report",
-      "label": "DEBUG: Loader OK",
-      "extensionLabel": "Target: https://ll985fshutiv.share.zrok.io/trending",
-      "action": "message:If this fails, your backend or zrok tunnel is down."
+      "icon": "whatshot",
+      "label": "4K Nature Relaxing Film",
+      "extensionLabel": "Nature Relaxation",
+      "image": "https://img.youtube.com/vi/668nUCeB864/hqdefault.jpg",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=668nUCeB864"
     }
   ]
 }

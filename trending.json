@@ -1,10 +1,7 @@
 {
     "name": "Trending",
-    "version": "1.0.0",
     "type": "list",
     "headline": "Trending Now",
-    "background": "linear-gradient(180deg, #2d1b4e 0%, #0f0f0f 100%)",
-    "style": "background:transparent",
     "header": {
         "icon": "whatshot",
         "title": "Trending",
@@ -14,89 +11,68 @@
         "type": "separate",
         "layout": "0,0,6,3",
         "imageFiller": "cover",
-        "iconSize": "large",
         "progress": -1,
-        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?quality=high&id={context:id}"
+        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
     },
     "items": [
         {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #1 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 12:34 · 15M views",
-            "title": "Breaking News: Major Event",
-            "titleFooter": "{ico:verified} CNN · 2 hours ago",
-            "image": "https://picsum.photos/seed/trend1/854/480",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #1 TRENDING",
+            "badge": "{ico:schedule} 15M views",
+            "title": "Epic Nature Compilation",
+            "titleFooter": "{ico:verified} National Geographic",
+            "image": "https://i.ytimg.com/vi/nlYlNF30bVg/hqdefault.jpg",
             "properties": {
-                "id": "dQw4w9WgXcQ"
+                "id": "nlYlNF30bVg"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #2 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 8:21 · 8.2M views",
-            "title": "New Music Video Premiere",
-            "titleFooter": "{ico:verified} VEVO · 6 hours ago",
-            "image": "https://picsum.photos/seed/trend2/854/480",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #2 TRENDING",
+            "badge": "{ico:schedule} 8.2M views",
+            "title": "Piano Music Collection",
+            "titleFooter": "{ico:verified} Rousseau",
+            "image": "https://i.ytimg.com/vi/sb8fHnkmNLM/hqdefault.jpg",
             "properties": {
-                "id": "jNQXAC9IVRw"
+                "id": "sb8fHnkmNLM"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #3 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 22:15 · 5.4M views",
-            "title": "Movie Trailer: Blockbuster 2024",
-            "titleFooter": "{ico:verified} Universal Pictures · 1 day ago",
-            "image": "https://picsum.photos/seed/trend3/854/480",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #3 TRENDING",
+            "badge": "{ico:schedule} 5.4M views",
+            "title": "Ocean Waves Relaxation",
+            "titleFooter": "Relaxing Sounds",
+            "image": "https://i.ytimg.com/vi/WHPEKLQID4U/hqdefault.jpg",
             "properties": {
-                "id": "M7lc1UVf-VE"
+                "id": "WHPEKLQID4U"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #4 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 15:42 · 4.1M views",
-            "title": "Sports Highlights: Championship",
-            "titleFooter": "{ico:verified} ESPN · 8 hours ago",
-            "image": "https://picsum.photos/seed/trend4/854/480",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #4 TRENDING",
+            "badge": "{ico:schedule} 4.1M views",
+            "title": "Fireplace Sounds",
+            "titleFooter": "Cozy Ambience",
+            "image": "https://i.ytimg.com/vi/L_LUpnjgPso/hqdefault.jpg",
             "properties": {
-                "id": "5qap5aO4i9A"
+                "id": "L_LUpnjgPso"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #5 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 18:33 · 3.8M views",
-            "title": "Celebrity Interview Exclusive",
-            "titleFooter": "{ico:verified} Entertainment Tonight · 12 hours ago",
-            "image": "https://picsum.photos/seed/trend5/854/480",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #5 TRENDING",
+            "badge": "{ico:schedule} 3.8M views",
+            "title": "Rain Sounds Sleep",
+            "titleFooter": "Relaxing White Noise",
+            "image": "https://i.ytimg.com/vi/mPZkdNFkNps/hqdefault.jpg",
             "properties": {
-                "id": "jfKfPfyJRdk"
+                "id": "mPZkdNFkNps"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #6 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 10:15 · 2.9M views",
-            "title": "Viral Challenge Compilation",
-            "titleFooter": "TikTok Trends · 18 hours ago",
-            "image": "https://picsum.photos/seed/trend6/854/480",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #6 TRENDING",
+            "badge": "{ico:schedule} 2.9M views",
+            "title": "Classical Music Mix",
+            "titleFooter": "{ico:verified} HDPiano",
+            "image": "https://i.ytimg.com/vi/jgpJVI3tDbY/hqdefault.jpg",
             "properties": {
-                "id": "dQw4w9WgXcQ"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #7 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 45:12 · 2.5M views",
-            "title": "Documentary: Behind The Scenes",
-            "titleFooter": "{ico:verified} Netflix · 1 day ago",
-            "image": "https://picsum.photos/seed/trend7/854/480",
-            "properties": {
-                "id": "jNQXAC9IVRw"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:trending-up} #8 TRENDING",
-            "badge": "{col:msx-white-soft}{ico:schedule} 6:45 · 2.1M views",
-            "title": "Product Launch Event",
-            "titleFooter": "{ico:verified} Apple · 2 days ago",
-            "image": "https://picsum.photos/seed/trend8/854/480",
-            "properties": {
-                "id": "M7lc1UVf-VE"
+                "id": "jgpJVI3tDbY"
             }
         }
     ]

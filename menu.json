@@ -10,7 +10,7 @@
             "id": "home",
             "icon": "home",
             "label": "Home",
-            "data": "http://msx.benzac.de/info/data/guide/videos.json"
+            "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/home.json"
         },
         {
             "id": "trending",
@@ -35,4 +35,3 @@
         }
     ]
 }
-

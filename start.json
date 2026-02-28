@@ -1,6 +1,7 @@
 {
-    "name": "YouTube Client",
-    "version": "1.0.0",
+    "name": "YouTube",
+    "version": "2.0.0",
     "parameter": "menu:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/menu.json",
-    "background": "linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%)"
+    "background": "",
+    "style": "background:linear-gradient(145deg,#0d0d0d 0%,#1a0a0a 50%,#0d0d0d 100%)"
 }

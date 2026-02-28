@@ -13,7 +13,7 @@
     },
     {
       "title": "Search",
-      "action": "content:search_template.json",
+      "action": "content:https://raw.githubusercontent.com/upsidedipdopdap/msx/main/search_template.json",
       "image": "https://img.icons8.com/m_rounded/200/search.png"
     }
   ],

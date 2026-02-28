@@ -1,5 +1,5 @@
 {
   "name": "MSX Tube Proxy",
   "version": "1.0.0",
-  "parameter": "menu:menu.json"
+  "parameter": "menu:https://raw.githubusercontent.com/upsidedipdopdap/msx/main/menu.json"
 }

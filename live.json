@@ -1,0 +1,89 @@
+{
+    "name": "Live",
+    "type": "list",
+    "headline": "{ico:sensors} Live Now",
+    "style": "background:transparent",
+    "header": {
+        "icon": "sensors",
+        "title": "Live Streams",
+        "titleFooter": "{col:msx-white-soft}Watch live content"
+    },
+    "template": {
+        "type": "separate",
+        "layout": "0,0,4,3",
+        "imageFiller": "cover",
+        "iconSize": "small",
+        "progress": -1,
+        "selection": {
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
+        }
+    },
+    "items": [
+        {
+            "tagColor": "msx-red",
+            "tag": "{ico:circle|0.5} LIVE",
+            "badge": "{ico:visibility} 42K watching",
+            "title": "Lofi Girl Radio",
+            "titleFooter": "{ico:verified}{col:msx-blue} Lofi Girl",
+            "image": "https://i.ytimg.com/vi/jfKfPfyJRdk/maxresdefault.jpg",
+            "properties": {
+                "id": "jfKfPfyJRdk"
+            }
+        },
+        {
+            "tagColor": "msx-red",
+            "tag": "{ico:circle|0.5} LIVE",
+            "badge": "{ico:visibility} 18K watching",
+            "title": "Jazz Radio 24/7",
+            "titleFooter": "{ico:person} Cafe Music BGM",
+            "image": "https://i.ytimg.com/vi/neV3EPgvZ3g/maxresdefault.jpg",
+            "properties": {
+                "id": "neV3EPgvZ3g"
+            }
+        },
+        {
+            "tagColor": "msx-red",
+            "tag": "{ico:circle|0.5} LIVE",
+            "badge": "{ico:visibility} 8.5K watching",
+            "title": "Relaxing Piano",
+            "titleFooter": "{ico:person} Soothing Relaxation",
+            "image": "https://i.ytimg.com/vi/sb8fHnkmNLM/maxresdefault.jpg",
+            "properties": {
+                "id": "sb8fHnkmNLM"
+            }
+        },
+        {
+            "tagColor": "msx-red",
+            "tag": "{ico:circle|0.5} LIVE",
+            "badge": "{ico:visibility} 5.2K watching",
+            "title": "Nature Sounds",
+            "titleFooter": "{ico:person} Calm Ambience",
+            "image": "https://i.ytimg.com/vi/xNN7iTA57jM/maxresdefault.jpg",
+            "properties": {
+                "id": "xNN7iTA57jM"
+            }
+        },
+        {
+            "tagColor": "msx-red",
+            "tag": "{ico:circle|0.5} LIVE",
+            "badge": "{ico:visibility} 3.8K watching",
+            "title": "Rain & Thunder",
+            "titleFooter": "{ico:person} Sleep Sounds",
+            "image": "https://i.ytimg.com/vi/mPZkdNFkNps/maxresdefault.jpg",
+            "properties": {
+                "id": "mPZkdNFkNps"
+            }
+        },
+        {
+            "tagColor": "msx-red",
+            "tag": "{ico:circle|0.5} LIVE",
+            "badge": "{ico:visibility} 2.1K watching",
+            "title": "Fireplace Ambience",
+            "titleFooter": "{ico:person} Cozy Vibes",
+            "image": "https://i.ytimg.com/vi/L_LUpnjgPso/maxresdefault.jpg",
+            "properties": {
+                "id": "L_LUpnjgPso"
+            }
+        }
+    ]
+}

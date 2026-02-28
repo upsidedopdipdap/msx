@@ -1,78 +1,102 @@
 {
     "name": "Trending",
     "type": "list",
-    "headline": "Trending Now",
+    "headline": "{ico:whatshot} Trending",
+    "style": "background:transparent",
     "header": {
         "icon": "whatshot",
-        "title": "Trending",
-        "titleFooter": "What's popular right now"
+        "title": "Trending Now",
+        "titleFooter": "{col:msx-white-soft}What the world is watching"
     },
     "template": {
         "type": "separate",
         "layout": "0,0,6,3",
         "imageFiller": "cover",
+        "iconSize": "small",
         "progress": -1,
-        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
+        "selection": {
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
+        }
     },
     "items": [
         {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #1 TRENDING",
-            "badge": "{ico:schedule} 15M views",
-            "title": "Epic Nature Compilation",
-            "titleFooter": "{ico:verified} National Geographic",
-            "image": "https://i.ytimg.com/vi/nlYlNF30bVg/hqdefault.jpg",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #1 ON TRENDING",
+            "badge": "{ico:visibility} 24M · {ico:thumb-up} 1.2M",
+            "title": "AI Revolution 2024",
+            "titleFooter": "{ico:verified}{col:msx-blue} Marques Brownlee · {col:msx-white-soft}2 hours ago",
+            "image": "https://i.ytimg.com/vi/e-P5IFTqB98/maxresdefault.jpg",
             "properties": {
-                "id": "nlYlNF30bVg"
+                "id": "e-P5IFTqB98"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #2 TRENDING",
-            "badge": "{ico:schedule} 8.2M views",
-            "title": "Piano Music Collection",
-            "titleFooter": "{ico:verified} Rousseau",
-            "image": "https://i.ytimg.com/vi/sb8fHnkmNLM/hqdefault.jpg",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #2 ON TRENDING",
+            "badge": "{ico:visibility} 18M · {ico:thumb-up} 890K",
+            "title": "Most Expensive Foods",
+            "titleFooter": "{ico:verified}{col:msx-blue} MrBeast · {col:msx-white-soft}6 hours ago",
+            "image": "https://i.ytimg.com/vi/DEW5panECnQ/maxresdefault.jpg",
             "properties": {
-                "id": "sb8fHnkmNLM"
+                "id": "DEW5panECnQ"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #3 TRENDING",
-            "badge": "{ico:schedule} 5.4M views",
-            "title": "Ocean Waves Relaxation",
-            "titleFooter": "Relaxing Sounds",
-            "image": "https://i.ytimg.com/vi/WHPEKLQID4U/hqdefault.jpg",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #3 ON TRENDING",
+            "badge": "{ico:visibility} 15M · {ico:thumb-up} 720K",
+            "title": "Epic Movie Trailer",
+            "titleFooter": "{ico:verified}{col:msx-blue} Universal Pictures · {col:msx-white-soft}1 day ago",
+            "image": "https://i.ytimg.com/vi/JkaxUblCGz0/maxresdefault.jpg",
             "properties": {
-                "id": "WHPEKLQID4U"
+                "id": "JkaxUblCGz0"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #4 TRENDING",
-            "badge": "{ico:schedule} 4.1M views",
-            "title": "Fireplace Sounds",
-            "titleFooter": "Cozy Ambience",
-            "image": "https://i.ytimg.com/vi/L_LUpnjgPso/hqdefault.jpg",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #4 ON TRENDING",
+            "badge": "{ico:visibility} 12M · {ico:thumb-up} 650K",
+            "title": "Championship Highlights",
+            "titleFooter": "{ico:verified}{col:msx-blue} ESPN · {col:msx-white-soft}8 hours ago",
+            "image": "https://i.ytimg.com/vi/oAPCPjnU1wA/maxresdefault.jpg",
             "properties": {
-                "id": "L_LUpnjgPso"
+                "id": "oAPCPjnU1wA"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #5 TRENDING",
-            "badge": "{ico:schedule} 3.8M views",
-            "title": "Rain Sounds Sleep",
-            "titleFooter": "Relaxing White Noise",
-            "image": "https://i.ytimg.com/vi/mPZkdNFkNps/hqdefault.jpg",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #5 ON TRENDING",
+            "badge": "{ico:visibility} 9M · {ico:thumb-up} 480K",
+            "title": "Celebrity Interview",
+            "titleFooter": "{ico:verified}{col:msx-blue} The Tonight Show · {col:msx-white-soft}12 hours ago",
+            "image": "https://i.ytimg.com/vi/G7KNmW9a75Y/maxresdefault.jpg",
             "properties": {
-                "id": "mPZkdNFkNps"
+                "id": "G7KNmW9a75Y"
             }
         },
         {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #6 TRENDING",
-            "badge": "{ico:schedule} 2.9M views",
-            "title": "Classical Music Mix",
-            "titleFooter": "{ico:verified} HDPiano",
-            "image": "https://i.ytimg.com/vi/jgpJVI3tDbY/hqdefault.jpg",
+            "titleHeader": "{col:msx-red}{ico:whatshot} #6 ON TRENDING",
+            "badge": "{ico:visibility} 7.5M · {ico:thumb-up} 320K",
+            "title": "New Music Video",
+            "titleFooter": "{ico:verified}{col:msx-blue} VEVO · {col:msx-white-soft}1 day ago",
+            "image": "https://i.ytimg.com/vi/4NRXx6U8ABQ/maxresdefault.jpg",
             "properties": {
-                "id": "jgpJVI3tDbY"
+                "id": "4NRXx6U8ABQ"
+            }
+        },
+        {
+            "titleHeader": "{col:msx-red}{ico:whatshot} #7 ON TRENDING",
+            "badge": "{ico:visibility} 6M · {ico:thumb-up} 280K",
+            "title": "Science Explained",
+            "titleFooter": "{ico:verified}{col:msx-blue} Veritasium · {col:msx-white-soft}2 days ago",
+            "image": "https://i.ytimg.com/vi/QqsLTNkzvaY/maxresdefault.jpg",
+            "properties": {
+                "id": "QqsLTNkzvaY"
+            }
+        },
+        {
+            "titleHeader": "{col:msx-red}{ico:whatshot} #8 ON TRENDING",
+            "badge": "{ico:visibility} 5M · {ico:thumb-up} 210K",
+            "title": "Viral Challenge",
+            "titleFooter": "{ico:person} TikTok Trends · {col:msx-white-soft}18 hours ago",
+            "image": "https://i.ytimg.com/vi/N6cp7vTFYnU/maxresdefault.jpg",
+            "properties": {
+                "id": "N6cp7vTFYnU"
             }
         }
     ]

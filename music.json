@@ -1,0 +1,137 @@
+{
+    "name": "Music",
+    "type": "list",
+    "headline": "{ico:music-note} Music",
+    "style": "background:transparent",
+    "header": {
+        "icon": "music-note",
+        "title": "Music",
+        "titleFooter": "{col:msx-white-soft}Top hits and playlists"
+    },
+    "template": {
+        "type": "separate",
+        "layout": "0,0,3,3",
+        "imageFiller": "cover",
+        "iconSize": "small",
+        "progress": -1,
+        "selection": {
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
+        }
+    },
+    "items": [
+        {
+            "tagColor": "msx-red",
+            "tag": "{ico:headphones} TOP HIT",
+            "badge": "{ico:visibility} 2.1B",
+            "title": "Blinding Lights",
+            "titleFooter": "{ico:verified}{col:msx-blue} The Weeknd",
+            "image": "https://i.ytimg.com/vi/4NRXx6U8ABQ/maxresdefault.jpg",
+            "properties": {
+                "id": "4NRXx6U8ABQ"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 1.8B",
+            "title": "Flowers",
+            "titleFooter": "{ico:verified}{col:msx-blue} Miley Cyrus",
+            "image": "https://i.ytimg.com/vi/G7KNmW9a75Y/maxresdefault.jpg",
+            "properties": {
+                "id": "G7KNmW9a75Y"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 950M",
+            "title": "Anti-Hero",
+            "titleFooter": "{ico:verified}{col:msx-blue} Taylor Swift",
+            "image": "https://i.ytimg.com/vi/b1kbLwvqugk/maxresdefault.jpg",
+            "properties": {
+                "id": "b1kbLwvqugk"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 780M",
+            "title": "As It Was",
+            "titleFooter": "{ico:verified}{col:msx-blue} Harry Styles",
+            "image": "https://i.ytimg.com/vi/H5v3kku4y6Q/maxresdefault.jpg",
+            "properties": {
+                "id": "H5v3kku4y6Q"
+            }
+        },
+        {
+            "tagColor": "msx-purple",
+            "tag": "{ico:nightlife} CHILL",
+            "badge": "{ico:visibility} 52M",
+            "title": "Lofi Hip Hop Radio",
+            "titleFooter": "{ico:verified}{col:msx-blue} Lofi Girl",
+            "image": "https://i.ytimg.com/vi/jfKfPfyJRdk/maxresdefault.jpg",
+            "properties": {
+                "id": "jfKfPfyJRdk"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 28M",
+            "title": "Jazz Coffee Shop",
+            "titleFooter": "{ico:person} Cafe Music BGM",
+            "image": "https://i.ytimg.com/vi/neV3EPgvZ3g/maxresdefault.jpg",
+            "properties": {
+                "id": "neV3EPgvZ3g"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 18M",
+            "title": "Classical Piano",
+            "titleFooter": "{ico:verified}{col:msx-blue} Rousseau",
+            "image": "https://i.ytimg.com/vi/sb8fHnkmNLM/maxresdefault.jpg",
+            "properties": {
+                "id": "sb8fHnkmNLM"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 15M",
+            "title": "Acoustic Covers",
+            "titleFooter": "{ico:person} Acoustic Trench",
+            "image": "https://i.ytimg.com/vi/eutMSVDIyig/maxresdefault.jpg",
+            "properties": {
+                "id": "eutMSVDIyig"
+            }
+        },
+        {
+            "tagColor": "msx-cyan",
+            "tag": "{ico:graphic-eq} EDM",
+            "badge": "{ico:visibility} 320M",
+            "title": "Summer Mix 2024",
+            "titleFooter": "{ico:verified}{col:msx-blue} NCS",
+            "image": "https://i.ytimg.com/vi/h2zkV-l_TbY/maxresdefault.jpg",
+            "properties": {
+                "id": "h2zkV-l_TbY"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 89M",
+            "title": "Deep House Mix",
+            "titleFooter": "{ico:person} Tropical House",
+            "image": "https://i.ytimg.com/vi/mPZkdNFkNps/maxresdefault.jpg",
+            "properties": {
+                "id": "mPZkdNFkNps"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 45M",
+            "title": "Chill Electronic",
+            "titleFooter": "{ico:person} Ambient Worlds",
+            "image": "https://i.ytimg.com/vi/L_LUpnjgPso/maxresdefault.jpg",
+            "properties": {
+                "id": "L_LUpnjgPso"
+            }
+        },
+        {
+            "badge": "{ico:visibility} 22M",
+            "title": "Synthwave Retro",
+            "titleFooter": "{ico:person} Retrowave",
+            "image": "https://i.ytimg.com/vi/jgpJVI3tDbY/maxresdefault.jpg",
+            "properties": {
+                "id": "jgpJVI3tDbY"
+            }
+        }
+    ]
+}

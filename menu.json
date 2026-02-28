@@ -22,6 +22,31 @@
       "icon": "search",
       "label": "Search",
       "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search_template.json"
+    },
+    {
+      "type": "separator",
+      "label": "VPN SECTIONS (Direct YT)"
+    },
+    {
+      "id": "vpn_us",
+      "type": "default",
+      "icon": "public",
+      "label": "VPN - USA",
+      "action": "content:https://ll985fshutiv.share.zrok.io/home?region=US&direct=1"
+    },
+    {
+      "id": "vpn_uk",
+      "type": "default",
+      "icon": "public",
+      "label": "VPN - UK",
+      "action": "content:https://ll985fshutiv.share.zrok.io/home?region=GB&direct=1"
+    },
+    {
+      "id": "vpn_jp",
+      "type": "default",
+      "icon": "public",
+      "label": "VPN - Japan",
+      "action": "content:https://ll985fshutiv.share.zrok.io/home?region=JP&direct=1"
     }
   ],
   "items": [

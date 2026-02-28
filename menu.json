@@ -1,29 +1,37 @@
 {
-  "name": "Main Menu",
-  "version": "1.0.0",
-  "menu": [
-    {
-      "icon": "home",
-      "label": "Home",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/home.json"
-    },
-    {
-      "icon": "whatshot",
-      "label": "Trending",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/trending.json"
-    },
-    {
-      "icon": "search",
-      "label": "Search",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/search_template.json"
-    }
-  ],
-  "items": [
-    {
-      "type": "default",
-      "icon": "play_arrow",
-      "label": "Welcome to MSX Tube",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/home.json"
-    }
-  ]
+    "name": "YouTube",
+    "version": "1.0.0",
+    "type": "menu",
+    "logo": "http://msx.benzac.de/img/youtube.png",
+    "logoSize": "small",
+    "style": "background:rgba(255,0,0,0.1)",
+    "menu": [
+        {
+            "id": "home",
+            "icon": "home",
+            "label": "Home",
+            "data": "http://msx.benzac.de/info/data/guide/videos.json"
+        },
+        {
+            "id": "trending",
+            "icon": "whatshot",
+            "label": "Trending",
+            "data": "{PREFIX}{SERVER}/trending.json"
+        },
+        {
+            "id": "search",
+            "icon": "search",
+            "label": "Search",
+            "data": "{PREFIX}{SERVER}/search.json"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "id": "settings",
+            "icon": "settings",
+            "label": "Settings",
+            "data": "{PREFIX}{SERVER}/settings.json"
+        }
+    ]
 }

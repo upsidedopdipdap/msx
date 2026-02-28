@@ -1,76 +1,34 @@
 {
     "name": "Settings",
-    "version": "1.0.0",
     "type": "list",
     "headline": "Settings",
-    "background": "linear-gradient(180deg, #2f2f2f 0%, #0f0f0f 100%)",
     "header": {
         "icon": "settings",
         "title": "Settings",
-        "titleFooter": "Customize your experience"
+        "titleFooter": "App configuration"
     },
     "template": {
         "type": "control",
-        "layout": "0,0,8,1",
-        "area": "0,0,8,6"
+        "layout": "0,0,8,1"
     },
     "items": [
         {
-            "icon": "high-quality",
-            "extensionIcon": "check-circle",
-            "label": "Video Quality",
-            "title": "High (1080p)",
-            "action": "info:Video quality set to High"
-        },
-        {
-            "icon": "subtitles",
-            "extensionIcon": "toggle-off",
-            "label": "Auto Subtitles",
-            "title": "Disabled",
-            "action": "info:Toggle subtitles"
-        },
-        {
-            "icon": "play-circle-outline",
-            "extensionIcon": "toggle-on",
-            "label": "Autoplay",
-            "title": "Enabled",
-            "action": "info:Toggle autoplay"
-        },
-        {
-            "icon": "dark-mode",
-            "extensionIcon": "toggle-on",
-            "label": "Dark Mode",
-            "title": "Enabled",
-            "action": "info:Dark mode is always on"
-        },
-        {
-            "icon": "notifications",
-            "extensionIcon": "toggle-off",
-            "label": "Notifications",
-            "title": "Disabled",
-            "action": "info:Toggle notifications"
-        },
-        {
-            "type": "space"
-        },
-        {
             "icon": "info",
             "label": "About",
-            "title": "YouTube Client v1.0.0",
+            "title": "YouTube Client v1.0",
             "action": "panel:data",
             "data": {
                 "headline": "{ico:youtube} YouTube Client",
-                "text": "Version: 1.0.0{br}{br}A stylish YouTube client for Media Station X.{br}{br}Features:{br}• Browse trending videos{br}• Search YouTube content{br}• High quality playback{br}{br}{col:msx-white-soft}Made with MSX Framework"
+                "text": "Version 1.0{br}{br}A YouTube client for MSX.{br}{br}Uses the official YouTube plugin."
             }
         },
         {
             "icon": "help",
             "label": "Help",
-            "title": "Get support",
             "action": "panel:data",
             "data": {
                 "headline": "{ico:help} Help",
-                "text": "Navigation:{br}• Use arrow keys to navigate{br}• Press OK/Enter to select{br}• Press Back to go back{br}{br}Search:{br}• Go to Search tab{br}• Enter your query{br}• Browse results{br}{br}Playback:{br}• Select any video to play{br}• Use media keys for control"
+                "text": "• Use arrows to navigate{br}• Press OK to select{br}• Press Back to go back"
             }
         }
     ]

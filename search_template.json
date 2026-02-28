@@ -1,6 +1,6 @@
 {
-  "name": "MSX Tube Search",
   "version": "1.0.0",
+  "name": "MSX Tube Search",
   "type": "list",
   "search": {
     "action": "content:http://localhost:3000/search?q={query}",

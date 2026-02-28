@@ -1,10 +1,12 @@
 {
     "name": "YouTube",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "type": "menu",
-    "logo": "http://msx.benzac.de/img/youtube.png",
-    "logoSize": "small",
-    "style": "background:rgba(255,0,0,0.1)",
+    "headline": "YouTube",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/800px-YouTube_full-color_icon_%282017%29.svg.png",
+    "logoSize": "medium",
+    "style": "background:linear-gradient(180deg,rgba(255,0,0,0.15) 0%,transparent 100%)",
+    "transparent": 2,
     "menu": [
         {
             "id": "home",
@@ -23,6 +25,21 @@
             "icon": "search",
             "label": "Search",
             "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search.json"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "id": "music",
+            "icon": "music-note",
+            "label": "Music",
+            "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/music.json"
+        },
+        {
+            "id": "live",
+            "icon": "sensors",
+            "label": "Live",
+            "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/live.json"
         },
         {
             "type": "separator"

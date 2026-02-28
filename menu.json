@@ -7,14 +7,14 @@
       "type": "default",
       "icon": "home",
       "label": "Home",
-      "action": "execute:info:Connecting to Backend...|content:https://ll985fshutiv.share.zrok.io/home"
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/home.json"
     },
     {
       "id": "trending_menu",
       "type": "default",
       "icon": "whatshot",
       "label": "Trending",
-      "action": "execute:info:Fetching Trending...|content:https://ll985fshutiv.share.zrok.io/trending"
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/trending.json"
     },
     {
       "id": "search_menu",
@@ -27,17 +27,10 @@
   "items": [
     {
       "type": "default",
-      "icon": "info",
-      "label": "DEBUG: Backend URL",
-      "extensionLabel": "https://ll985fshutiv.share.zrok.io",
-      "action": "message:This is the URL MSX is trying to reach. Ensure it is accessible from your device browser."
-    },
-    {
-      "type": "default",
-      "icon": "link",
-      "label": "DEBUG: GitHub Repo",
-      "extensionLabel": "upsidedopdipdap/msx",
-      "action": "message:Ensure files are in the 'main' branch and public."
+      "icon": "play-arrow",
+      "label": "Welcome to MSX Tube",
+      "extensionLabel": "Choose a category to start",
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/home.json"
     }
   ]
 }

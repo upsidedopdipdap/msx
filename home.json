@@ -1,0 +1,20 @@
+{
+  "name": "MSX Tube - Home Loader",
+  "version": "1.0.0",
+  "items": [
+    {
+      "type": "default",
+      "icon": "sync",
+      "label": "Load Home Feed",
+      "extensionLabel": "Target: https://ll985fshutiv.share.zrok.io/home",
+      "action": "content:https://ll985fshutiv.share.zrok.io/home"
+    },
+    {
+      "type": "default",
+      "icon": "info",
+      "label": "LOG: Home Page Loaded from GitHub",
+      "extensionLabel": "Status: Ready to connect to backend",
+      "action": "message:This page is hosted on GitHub. If you click 'Load Home Feed' and it fails, the issue is with your zrok tunnel or backend server."
+    }
+  ]
+}

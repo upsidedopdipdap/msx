@@ -1,20 +1,19 @@
 {
-  "name": "MSX Tube - Trending Loader",
+  "name": "Trending Feed",
   "version": "1.0.0",
   "items": [
     {
       "type": "default",
       "icon": "whatshot",
-      "label": "Load Trending List",
-      "extensionLabel": "Target: https://ll985fshutiv.share.zrok.io/trending",
+      "label": "Click to load Trending",
       "action": "content:https://ll985fshutiv.share.zrok.io/trending"
     },
     {
       "type": "default",
-      "icon": "info",
-      "label": "LOG: Trending Page Loaded from GitHub",
-      "extensionLabel": "Status: Ready to connect to backend",
-      "action": "message:This page is hosted on GitHub. If you click 'Load Trending List' and it fails, the issue is with your zrok tunnel or backend server."
+      "icon": "bug-report",
+      "label": "DEBUG: Loader OK",
+      "extensionLabel": "Target: https://ll985fshutiv.share.zrok.io/trending",
+      "action": "message:If this fails, your backend or zrok tunnel is down."
     }
   ]
 }

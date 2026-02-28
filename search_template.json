@@ -1,5 +1,5 @@
 {
-  "name": "MSX Tube - Search Loader",
+  "name": "Search",
   "version": "1.0.0",
   "type": "list",
   "search": {
@@ -11,14 +11,13 @@
       "type": "default",
       "icon": "search",
       "label": "Search YouTube",
-      "extensionLabel": "Backend: https://ll985fshutiv.share.zrok.io",
       "action": "panel:search"
     },
     {
       "type": "default",
-      "icon": "info",
-      "label": "LOG: Search Page Loaded from GitHub",
-      "action": "message:If searching returns 'Content not available', the backend at ll985fshutiv.share.zrok.io is unreachable."
+      "icon": "bug-report",
+      "label": "DEBUG: Search Ready",
+      "action": "message:This panel is on GitHub. If you search and it fails, the backend is unreachable."
     }
   ]
 }

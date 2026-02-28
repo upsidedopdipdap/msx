@@ -2,16 +2,5 @@
     "name": "YouTube Client",
     "version": "1.0.0",
     "parameter": "menu:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/menu.json",
-    "dictionary": "http://msx.benzac.de/interaction/dictionary.json",
-    "background": "linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%)",
-    "style": "overlay:default,lean-over",
-    "options": {
-        "pageScrolling": "auto",
-        "pageLoading": true,
-        "acceleratedScrolling": true
-    },
-    "ready": {
-        "action": "content:home"
-    }
+    "background": "linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%)"
 }
-

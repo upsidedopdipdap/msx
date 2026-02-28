@@ -1,65 +1,170 @@
 {
     "name": "Search",
-    "type": "list",
-    "headline": "Search YouTube",
-    "header": {
-        "icon": "search",
-        "title": "Search",
-        "titleFooter": "Find videos on YouTube"
-    },
-    "template": {
-        "type": "control",
-        "layout": "0,0,4,1"
-    },
-    "items": [
+    "type": "pages",
+    "headline": "{ico:search} Search",
+    "style": "background:transparent",
+    "pages": [
         {
-            "icon": "search",
-            "label": "Search YouTube...",
-            "extensionIcon": "keyboard",
-            "action": "interaction:load:http://msx.benzac.de/interaction/search.html"
+            "headline": "Search YouTube",
+            "items": [
+                {
+                    "type": "button",
+                    "layout": "0,0,8,1",
+                    "icon": "search",
+                    "label": "Search YouTube...",
+                    "extensionIcon": "keyboard",
+                    "action": "interaction:load:http://msx.benzac.de/interaction/search.html"
+                },
+                {
+                    "type": "teaser",
+                    "layout": "0,1,8,1",
+                    "headline": "{col:msx-white-soft}Quick Categories",
+                    "text": ""
+                },
+                {
+                    "type": "button",
+                    "layout": "0,2,2,1",
+                    "icon": "music-note",
+                    "iconColor": "msx-red",
+                    "label": "Music",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=music"
+                },
+                {
+                    "type": "button",
+                    "layout": "2,2,2,1",
+                    "icon": "sports-esports",
+                    "iconColor": "msx-green",
+                    "label": "Gaming",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=gaming"
+                },
+                {
+                    "type": "button",
+                    "layout": "4,2,2,1",
+                    "icon": "movie",
+                    "iconColor": "msx-blue",
+                    "label": "Movies",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=movie+trailer"
+                },
+                {
+                    "type": "button",
+                    "layout": "6,2,2,1",
+                    "icon": "feed",
+                    "iconColor": "msx-yellow",
+                    "label": "News",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=news+today"
+                },
+                {
+                    "type": "button",
+                    "layout": "0,3,2,1",
+                    "icon": "fitness-center",
+                    "iconColor": "msx-orange",
+                    "label": "Fitness",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=workout"
+                },
+                {
+                    "type": "button",
+                    "layout": "2,3,2,1",
+                    "icon": "restaurant",
+                    "iconColor": "msx-purple",
+                    "label": "Cooking",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=cooking+recipe"
+                },
+                {
+                    "type": "button",
+                    "layout": "4,3,2,1",
+                    "icon": "science",
+                    "iconColor": "msx-cyan",
+                    "label": "Science",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=science+explained"
+                },
+                {
+                    "type": "button",
+                    "layout": "6,3,2,1",
+                    "icon": "school",
+                    "iconColor": "msx-pink",
+                    "label": "Learning",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=tutorial"
+                },
+                {
+                    "type": "button",
+                    "layout": "0,4,2,1",
+                    "icon": "flight",
+                    "iconColor": "msx-white",
+                    "label": "Travel",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=travel+vlog"
+                },
+                {
+                    "type": "button",
+                    "layout": "2,4,2,1",
+                    "icon": "pets",
+                    "iconColor": "msx-white",
+                    "label": "Animals",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=cute+animals"
+                },
+                {
+                    "type": "button",
+                    "layout": "4,4,2,1",
+                    "icon": "sentiment-very-satisfied",
+                    "iconColor": "msx-white",
+                    "label": "Comedy",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=comedy"
+                },
+                {
+                    "type": "button",
+                    "layout": "6,4,2,1",
+                    "icon": "auto-awesome",
+                    "iconColor": "msx-white",
+                    "label": "ASMR",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=asmr"
+                }
+            ]
         },
         {
-            "type": "space"
-        },
-        {
-            "icon": "music-note",
-            "label": "Music",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=music+mix"
-        },
-        {
-            "icon": "sports-esports",
-            "label": "Gaming",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=gaming"
-        },
-        {
-            "icon": "local-movies",
-            "label": "Movies & Trailers",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=movie+trailer"
-        },
-        {
-            "icon": "newspaper",
-            "label": "News",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=news"
-        },
-        {
-            "icon": "fitness-center",
-            "label": "Fitness",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=workout"
-        },
-        {
-            "icon": "restaurant",
-            "label": "Cooking",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=cooking"
-        },
-        {
-            "icon": "science",
-            "label": "Science",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=science"
-        },
-        {
-            "icon": "school",
-            "label": "Education",
-            "action": "content:http://msx.benzac.de/interaction/youtube.html?search=tutorial"
+            "headline": "Search History",
+            "items": [
+                {
+                    "type": "default",
+                    "layout": "0,0,4,1",
+                    "icon": "history",
+                    "label": "lofi hip hop radio",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=lofi+hip+hop+radio"
+                },
+                {
+                    "type": "default",
+                    "layout": "4,0,4,1",
+                    "icon": "history",
+                    "label": "tech reviews",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=tech+reviews"
+                },
+                {
+                    "type": "default",
+                    "layout": "0,1,4,1",
+                    "icon": "history",
+                    "label": "nature documentary 4k",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=nature+documentary+4k"
+                },
+                {
+                    "type": "default",
+                    "layout": "4,1,4,1",
+                    "icon": "history",
+                    "label": "relaxing music",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=relaxing+music"
+                },
+                {
+                    "type": "default",
+                    "layout": "0,2,4,1",
+                    "icon": "history",
+                    "label": "programming tutorial",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=programming+tutorial"
+                },
+                {
+                    "type": "default",
+                    "layout": "4,2,4,1",
+                    "icon": "history",
+                    "label": "japan travel vlog",
+                    "action": "content:http://msx.benzac.de/interaction/youtube.html?search=japan+travel+vlog"
+                }
+            ]
         }
     ]
 }

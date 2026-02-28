@@ -16,13 +16,13 @@
             "id": "trending",
             "icon": "whatshot",
             "label": "Trending",
-            "data": "{PREFIX}{SERVER}/trending.json"
+            "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/trending.json"
         },
         {
             "id": "search",
             "icon": "search",
             "label": "Search",
-            "data": "{PREFIX}{SERVER}/search.json"
+            "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search.json"
         },
         {
             "type": "separator"
@@ -31,7 +31,8 @@
             "id": "settings",
             "icon": "settings",
             "label": "Settings",
-            "data": "{PREFIX}{SERVER}/settings.json"
+            "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/settings.json"
         }
     ]
 }
+

@@ -1,7 +1,12 @@
 {
-  "version": "1.0.0",
   "name": "MSX Tube Search",
+  "version": "1.0.0",
   "type": "list",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,8,1",
+    "color": "msx-glass"
+  },
   "search": {
     "action": "content:http://localhost:3000/search?q={query}",
     "label": "Search YouTube..."
@@ -9,9 +14,9 @@
   "items": [
     {
       "title": "Search",
-      "label": "Enter a keyword",
-      "image": "https://img.icons8.com/m_rounded/200/search.png",
-      "action": "content:http://localhost:3000/search?q=funny%20cats"
+      "label": "Enter keyword",
+      "icon": "search",
+      "action": "panel:search"
     }
   ]
 }

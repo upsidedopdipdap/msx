@@ -1,10 +1,7 @@
 {
     "name": "Home",
-    "version": "1.0.0",
     "type": "list",
     "headline": "YouTube Home",
-    "background": "linear-gradient(180deg, #1a1a2e 0%, #0f0f0f 100%)",
-    "style": "background:transparent",
     "header": {
         "icon": "home",
         "title": "Home",
@@ -14,121 +11,84 @@
         "type": "separate",
         "layout": "0,0,4,4",
         "imageFiller": "cover",
-        "iconSize": "large",
         "progress": -1,
-        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?quality=high&id={context:id}"
+        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
     },
     "items": [
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 2.5M views",
+            "badge": "{ico:play-circle-outline} 2.5M views",
             "tagColor": "msx-red",
             "tag": "FEATURED",
-            "title": "Amazing Nature Documentary",
-            "titleFooter": "{ico:verified} NatureHub · 3 days ago",
-            "image": "https://picsum.photos/seed/yt1/640/360",
+            "title": "Relaxing Jazz Music",
+            "titleFooter": "RelaxDaily · 3 days ago",
+            "image": "https://i.ytimg.com/vi/neV3EPgvZ3g/hqdefault.jpg",
             "properties": {
-                "id": "dQw4w9WgXcQ"
+                "id": "neV3EPgvZ3g"
             }
         },
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 1.2M views",
-            "title": "Tech Review 2024",
-            "titleFooter": "{ico:verified} TechChannel · 1 week ago",
-            "image": "https://picsum.photos/seed/yt2/640/360",
+            "badge": "{ico:play-circle-outline} 1.2M views",
+            "title": "Nature Sounds Forest",
+            "titleFooter": "Nature Relaxation · 1 week ago",
+            "image": "https://i.ytimg.com/vi/xNN7iTA57jM/hqdefault.jpg",
             "properties": {
-                "id": "jNQXAC9IVRw"
+                "id": "xNN7iTA57jM"
             }
         },
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 890K views",
-            "title": "Cooking Masterclass",
-            "titleFooter": "ChefCuisine · 5 days ago",
-            "image": "https://picsum.photos/seed/yt3/640/360",
+            "badge": "{ico:play-circle-outline} 890K views",
+            "title": "Cooking Italian Pasta",
+            "titleFooter": "Tasty · 5 days ago",
+            "image": "https://i.ytimg.com/vi/bJUiWdM__Qw/hqdefault.jpg",
             "properties": {
-                "id": "M7lc1UVf-VE"
+                "id": "bJUiWdM__Qw"
             }
         },
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 3.1M views",
+            "badge": "{ico:play-circle-outline} 3.1M views",
             "tagColor": "msx-yellow",
-            "tag": "LIVE",
-            "title": "Lo-Fi Beats Radio",
-            "titleFooter": "{ico:verified} ChillHop Music · Streaming now",
-            "image": "https://picsum.photos/seed/yt4/640/360",
-            "properties": {
-                "id": "5qap5aO4i9A"
-            }
-        },
-        {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 456K views",
-            "title": "Travel Vlog: Japan",
-            "titleFooter": "TravelWithMe · 2 weeks ago",
-            "image": "https://picsum.photos/seed/yt5/640/360",
+            "tag": "POPULAR",
+            "title": "Lo-Fi Hip Hop Radio",
+            "titleFooter": "Lofi Girl · Streaming",
+            "image": "https://i.ytimg.com/vi/jfKfPfyJRdk/hqdefault.jpg",
             "properties": {
                 "id": "jfKfPfyJRdk"
             }
         },
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 678K views",
-            "title": "Gaming Highlights",
-            "titleFooter": "{ico:verified} ProGamer · 4 days ago",
-            "image": "https://picsum.photos/seed/yt6/640/360",
+            "badge": "{ico:play-circle-outline} 456K views",
+            "title": "Planet Earth Documentary",
+            "titleFooter": "BBC Earth · 2 weeks ago",
+            "image": "https://i.ytimg.com/vi/JkaxUblCGz0/hqdefault.jpg",
             "properties": {
-                "id": "dQw4w9WgXcQ"
+                "id": "JkaxUblCGz0"
             }
         },
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 234K views",
-            "title": "DIY Home Projects",
-            "titleFooter": "HandyMan · 1 month ago",
-            "image": "https://picsum.photos/seed/yt7/640/360",
+            "badge": "{ico:play-circle-outline} 678K views",
+            "title": "Acoustic Guitar Music",
+            "titleFooter": "Acoustic Trench · 4 days ago",
+            "image": "https://i.ytimg.com/vi/eutMSVDIyig/hqdefault.jpg",
             "properties": {
-                "id": "jNQXAC9IVRw"
+                "id": "eutMSVDIyig"
             }
         },
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 1.8M views",
-            "title": "Music Mix 2024",
-            "titleFooter": "{ico:verified} MusicVibes · 6 days ago",
-            "image": "https://picsum.photos/seed/yt8/640/360",
+            "badge": "{ico:play-circle-outline} 234K views",
+            "title": "Yoga For Beginners",
+            "titleFooter": "Yoga With Adriene · 1 month ago",
+            "image": "https://i.ytimg.com/vi/v7AYKMP6rOE/hqdefault.jpg",
             "properties": {
-                "id": "M7lc1UVf-VE"
+                "id": "v7AYKMP6rOE"
             }
         },
         {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 567K views",
-            "title": "Fitness Workout",
-            "titleFooter": "FitLife · 2 days ago",
-            "image": "https://picsum.photos/seed/yt9/640/360",
+            "badge": "{ico:play-circle-outline} 1.8M views",
+            "title": "Coffee Shop Ambience",
+            "titleFooter": "Calmed By Nature · 6 days ago",
+            "image": "https://i.ytimg.com/vi/h2zkV-l_TbY/hqdefault.jpg",
             "properties": {
-                "id": "5qap5aO4i9A"
-            }
-        },
-        {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 923K views",
-            "title": "Science Explained",
-            "titleFooter": "{ico:verified} SciShow · 1 week ago",
-            "image": "https://picsum.photos/seed/yt10/640/360",
-            "properties": {
-                "id": "jfKfPfyJRdk"
-            }
-        },
-        {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 345K views",
-            "title": "Art Tutorial",
-            "titleFooter": "ArtistCorner · 3 weeks ago",
-            "image": "https://picsum.photos/seed/yt11/640/360",
-            "properties": {
-                "id": "dQw4w9WgXcQ"
-            }
-        },
-        {
-            "badge": "{col:msx-white-soft}{ico:play-circle-outline} 789K views",
-            "title": "Comedy Special",
-            "titleFooter": "{ico:verified} FunnyGuys · 5 days ago",
-            "image": "https://picsum.photos/seed/yt12/640/360",
-            "properties": {
-                "id": "jNQXAC9IVRw"
+                "id": "h2zkV-l_TbY"
             }
         }
     ]

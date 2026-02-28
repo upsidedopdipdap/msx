@@ -14,9 +14,7 @@
         "imageFiller": "cover",
         "iconSize": "small",
         "progress": -1,
-        "selection": {
-            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
-        }
+        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
     },
     "items": [
         {
@@ -24,7 +22,7 @@
             "badge": "{ico:visibility} 24M · {ico:thumb-up} 1.2M",
             "title": "AI Revolution 2024",
             "titleFooter": "{ico:verified}{col:msx-blue} Marques Brownlee · {col:msx-white-soft}2 hours ago",
-            "image": "https://i.ytimg.com/vi/e-P5IFTqB98/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "e-P5IFTqB98"
             }
@@ -34,7 +32,7 @@
             "badge": "{ico:visibility} 18M · {ico:thumb-up} 890K",
             "title": "Most Expensive Foods",
             "titleFooter": "{ico:verified}{col:msx-blue} MrBeast · {col:msx-white-soft}6 hours ago",
-            "image": "https://i.ytimg.com/vi/DEW5panECnQ/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "DEW5panECnQ"
             }
@@ -44,7 +42,7 @@
             "badge": "{ico:visibility} 15M · {ico:thumb-up} 720K",
             "title": "Epic Movie Trailer",
             "titleFooter": "{ico:verified}{col:msx-blue} Universal Pictures · {col:msx-white-soft}1 day ago",
-            "image": "https://i.ytimg.com/vi/JkaxUblCGz0/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "JkaxUblCGz0"
             }
@@ -54,7 +52,7 @@
             "badge": "{ico:visibility} 12M · {ico:thumb-up} 650K",
             "title": "Championship Highlights",
             "titleFooter": "{ico:verified}{col:msx-blue} ESPN · {col:msx-white-soft}8 hours ago",
-            "image": "https://i.ytimg.com/vi/oAPCPjnU1wA/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "oAPCPjnU1wA"
             }
@@ -64,7 +62,7 @@
             "badge": "{ico:visibility} 9M · {ico:thumb-up} 480K",
             "title": "Celebrity Interview",
             "titleFooter": "{ico:verified}{col:msx-blue} The Tonight Show · {col:msx-white-soft}12 hours ago",
-            "image": "https://i.ytimg.com/vi/G7KNmW9a75Y/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "G7KNmW9a75Y"
             }
@@ -74,7 +72,7 @@
             "badge": "{ico:visibility} 7.5M · {ico:thumb-up} 320K",
             "title": "New Music Video",
             "titleFooter": "{ico:verified}{col:msx-blue} VEVO · {col:msx-white-soft}1 day ago",
-            "image": "https://i.ytimg.com/vi/4NRXx6U8ABQ/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "4NRXx6U8ABQ"
             }
@@ -84,7 +82,7 @@
             "badge": "{ico:visibility} 6M · {ico:thumb-up} 280K",
             "title": "Science Explained",
             "titleFooter": "{ico:verified}{col:msx-blue} Veritasium · {col:msx-white-soft}2 days ago",
-            "image": "https://i.ytimg.com/vi/QqsLTNkzvaY/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "QqsLTNkzvaY"
             }
@@ -94,7 +92,7 @@
             "badge": "{ico:visibility} 5M · {ico:thumb-up} 210K",
             "title": "Viral Challenge",
             "titleFooter": "{ico:person} TikTok Trends · {col:msx-white-soft}18 hours ago",
-            "image": "https://i.ytimg.com/vi/N6cp7vTFYnU/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "N6cp7vTFYnU"
             }

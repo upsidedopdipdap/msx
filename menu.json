@@ -5,53 +5,39 @@
     {
       "id": "home_menu",
       "type": "default",
-      "display": true,
-      "enable": true,
-      "focus": true,
-      "execute": false,
-      "transparent": 0,
       "icon": "home",
       "label": "Home",
-      "extensionIcon": "blank",
-      "lineColor": "msx-white",
-      "action": "content:https://ll985fshutiv.share.zrok.io/home"
+      "action": "execute:info:Connecting to Backend...|content:https://ll985fshutiv.share.zrok.io/home"
     },
     {
       "id": "trending_menu",
       "type": "default",
-      "display": true,
-      "enable": true,
-      "focus": false,
-      "execute": false,
-      "transparent": 0,
       "icon": "whatshot",
       "label": "Trending",
-      "extensionIcon": "blank",
-      "lineColor": "msx-white",
-      "action": "content:https://ll985fshutiv.share.zrok.io/trending"
+      "action": "execute:info:Fetching Trending...|content:https://ll985fshutiv.share.zrok.io/trending"
     },
     {
       "id": "search_menu",
       "type": "default",
-      "display": true,
-      "enable": true,
-      "focus": false,
-      "execute": false,
-      "transparent": 0,
       "icon": "search",
       "label": "Search",
-      "extensionIcon": "blank",
-      "lineColor": "msx-white",
       "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search_template.json"
     }
   ],
   "items": [
     {
       "type": "default",
-      "icon": "play-arrow",
-      "label": "Welcome to MSX Tube",
-      "extensionLabel": "Select a category to begin",
-      "action": "content:https://ll985fshutiv.share.zrok.io/home"
+      "icon": "info",
+      "label": "DEBUG: Backend URL",
+      "extensionLabel": "https://ll985fshutiv.share.zrok.io",
+      "action": "message:This is the URL MSX is trying to reach. Ensure it is accessible from your device browser."
+    },
+    {
+      "type": "default",
+      "icon": "link",
+      "label": "DEBUG: GitHub Repo",
+      "extensionLabel": "upsidedopdipdap/msx",
+      "action": "message:Ensure files are in the 'main' branch and public."
     }
   ]
 }

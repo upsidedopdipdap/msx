@@ -2,20 +2,23 @@
   "name": "MSX Tube Search",
   "version": "1.0.0",
   "type": "list",
-  "template": {
-    "type": "separate",
-    "layout": "0,0,8,1",
-    "color": "msx-glass"
-  },
   "search": {
-    "action": "content:http://localhost:3000/search?q={query}",
+    "action": "content:https://ll985fshutiv.share.zrok.io/search?q={query}",
     "label": "Search YouTube..."
   },
   "items": [
     {
-      "title": "Search",
-      "label": "Enter keyword",
+      "id": "search_item",
+      "type": "default",
+      "display": true,
+      "enable": true,
+      "focus": true,
+      "execute": false,
+      "transparent": 0,
       "icon": "search",
+      "label": "Search YouTube",
+      "extensionLabel": "Enter a keyword",
+      "lineColor": "msx-white",
       "action": "panel:search"
     }
   ]

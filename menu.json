@@ -3,27 +3,55 @@
   "version": "1.0.0",
   "menu": [
     {
-      "title": "Home",
-      "action": "content:http://localhost:3000/home",
-      "icon": "home"
+      "id": "home_menu",
+      "type": "default",
+      "display": true,
+      "enable": true,
+      "focus": true,
+      "execute": false,
+      "transparent": 0,
+      "icon": "home",
+      "label": "Home",
+      "extensionIcon": "blank",
+      "lineColor": "msx-white",
+      "action": "content:https://ll985fshutiv.share.zrok.io/home"
     },
     {
-      "title": "Trending",
-      "action": "content:http://localhost:3000/trending",
-      "icon": "whatshot"
+      "id": "trending_menu",
+      "type": "default",
+      "display": true,
+      "enable": true,
+      "focus": false,
+      "execute": false,
+      "transparent": 0,
+      "icon": "whatshot",
+      "label": "Trending",
+      "extensionIcon": "blank",
+      "lineColor": "msx-white",
+      "action": "content:https://ll985fshutiv.share.zrok.io/trending"
     },
     {
-      "title": "Search",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search_template.json",
-      "icon": "search"
+      "id": "search_menu",
+      "type": "default",
+      "display": true,
+      "enable": true,
+      "focus": false,
+      "execute": false,
+      "transparent": 0,
+      "icon": "search",
+      "label": "Search",
+      "extensionIcon": "blank",
+      "lineColor": "msx-white",
+      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search_template.json"
     }
   ],
   "items": [
     {
-      "title": "YouTube Proxy",
-      "label": "Select from menu",
+      "type": "default",
       "icon": "play-arrow",
-      "action": "content:http://localhost:3000/home"
+      "label": "Welcome to MSX Tube",
+      "extensionLabel": "Select a category to begin",
+      "action": "content:https://ll985fshutiv.share.zrok.io/home"
     }
   ]
 }

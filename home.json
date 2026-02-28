@@ -14,9 +14,7 @@
         "imageFiller": "cover",
         "iconSize": "small",
         "progress": -1,
-        "selection": {
-            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
-        }
+        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
     },
     "items": [
         {
@@ -25,7 +23,7 @@
             "badge": "{ico:visibility} 52M · {ico:schedule} 3:45:21",
             "title": "Lofi Hip Hop Radio 24/7",
             "titleFooter": "{ico:verified}{col:msx-blue} Lofi Girl",
-            "image": "https://i.ytimg.com/vi/jfKfPfyJRdk/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "jfKfPfyJRdk"
             }
@@ -34,7 +32,7 @@
             "badge": "{ico:visibility} 2.1M · {ico:schedule} 11:24",
             "title": "Satisfying Cafe Vlog",
             "titleFooter": "{ico:person} Peaceful Cuisine",
-            "image": "https://i.ytimg.com/vi/E4qvX0JpMKg/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "E4qvX0JpMKg"
             }
@@ -43,7 +41,7 @@
             "badge": "{ico:visibility} 8.4M · {ico:schedule} 21:06",
             "title": "Amazing Street Food Tour",
             "titleFooter": "{ico:verified}{col:msx-blue} Best Ever Food Review",
-            "image": "https://i.ytimg.com/vi/DEW5panECnQ/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "DEW5panECnQ"
             }
@@ -54,7 +52,7 @@
             "badge": "{ico:visibility} 156M · {ico:schedule} 4:12",
             "title": "Blinding Lights",
             "titleFooter": "{ico:verified}{col:msx-blue} The Weeknd",
-            "image": "https://i.ytimg.com/vi/4NRXx6U8ABQ/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "4NRXx6U8ABQ"
             }
@@ -63,7 +61,7 @@
             "badge": "{ico:visibility} 45M · {ico:schedule} 10:31",
             "title": "Planet Earth III Trailer",
             "titleFooter": "{ico:verified}{col:msx-blue} BBC Earth",
-            "image": "https://i.ytimg.com/vi/JkaxUblCGz0/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "JkaxUblCGz0"
             }
@@ -72,7 +70,7 @@
             "badge": "{ico:visibility} 12M · {ico:schedule} 15:42",
             "title": "Gordon Ramsay Pad Thai",
             "titleFooter": "{ico:verified}{col:msx-blue} Gordon Ramsay",
-            "image": "https://i.ytimg.com/vi/mvAsyxtXpJI/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "mvAsyxtXpJI"
             }
@@ -81,7 +79,7 @@
             "badge": "{ico:visibility} 3.2M · {ico:schedule} 8:15",
             "title": "Cozy Rain on Window",
             "titleFooter": "{ico:person} Relaxing Ambience",
-            "image": "https://i.ytimg.com/vi/mPZkdNFkNps/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "mPZkdNFkNps"
             }
@@ -90,7 +88,7 @@
             "badge": "{ico:visibility} 28M · {ico:schedule} 12:33",
             "title": "How Black Holes Work",
             "titleFooter": "{ico:verified}{col:msx-blue} Kurzgesagt",
-            "image": "https://i.ytimg.com/vi/QqsLTNkzvaY/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "QqsLTNkzvaY"
             }
@@ -99,7 +97,7 @@
             "badge": "{ico:visibility} 67M · {ico:schedule} 3:23",
             "title": "Flowers - Miley Cyrus",
             "titleFooter": "{ico:verified}{col:msx-blue} Miley Cyrus",
-            "image": "https://i.ytimg.com/vi/G7KNmW9a75Y/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "G7KNmW9a75Y"
             }
@@ -108,7 +106,7 @@
             "badge": "{ico:visibility} 5.1M · {ico:schedule} 28:45",
             "title": "Japan Travel Guide 2024",
             "titleFooter": "{ico:verified}{col:msx-blue} Abroad in Japan",
-            "image": "https://i.ytimg.com/vi/N6cp7vTFYnU/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "N6cp7vTFYnU"
             }
@@ -117,7 +115,7 @@
             "badge": "{ico:visibility} 18M · {ico:schedule} 4:02",
             "title": "Calm Piano Music",
             "titleFooter": "{ico:verified}{col:msx-blue} Rousseau",
-            "image": "https://i.ytimg.com/vi/sb8fHnkmNLM/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "sb8fHnkmNLM"
             }
@@ -126,7 +124,7 @@
             "badge": "{ico:visibility} 9.8M · {ico:schedule} 45:00",
             "title": "Full Body Workout",
             "titleFooter": "{ico:verified}{col:msx-blue} THENX",
-            "image": "https://i.ytimg.com/vi/oAPCPjnU1wA/maxresdefault.jpg",
+            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
             "properties": {
                 "id": "oAPCPjnU1wA"
             }

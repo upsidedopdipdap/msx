@@ -1,20 +1,6 @@
 {
   "name": "MSX Tube",
   "version": "1.0.0",
-  "parameter": "link:http://217.60.245.69:5173",
-  "ready": "link:http://192.168.0.235:5173",
-  "type": "pages",
-  "pages": [
-    {
-      "items": [
-        {
-          "type": "button",
-          "layout": "0,0,12,2",
-          "label": "Open MSX Tube (If it didn't open automatically)",
-          "action": "link:http://192.168.0.235:5173"
-        }
-      ]
-    }
-  ]
-
+  "parameter": "menu:{\"items\":[{\"label\":\"Launch MSX Tube\",\"action\":\"link:http://217.60.245.69:5173\"}]}",
+  "ready": "link:http://217.60.245.69:5173"
 }

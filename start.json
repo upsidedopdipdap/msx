@@ -1,5 +1,19 @@
 {
-  "name": "INV // MSX",
+  "name": "MSX Tube",
   "version": "1.0.0",
-  "parameter": "menu:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/menu.json"
+  "parameter": "link:http://217.60.245.69:5173",
+  "ready": "link:http://217.60.245.69:5173",
+  "type": "pages",
+  "pages": [
+    {
+      "items": [
+        {
+          "type": "button",
+          "layout": "0,0,12,2",
+          "label": "Open MSX Tube (If it didn't open automatically)",
+          "action": "link:http://217.60.245.69:5173"
+        }
+      ]
+    }
+  ]
 }

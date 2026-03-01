@@ -1,5 +1,6 @@
 {
   "name": "MSX Tube",
   "version": "1.0.0",
-  "parameter": "menu:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/menu.json"
+  "parameter": "menu:http://217.60.245.69:3001/menu.json"
 }
+

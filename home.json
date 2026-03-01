@@ -1,0 +1,20 @@
+{
+  "name": "MSX Tube - Home Loader",
+  "version": "1.0.0",
+  "items": [
+    {
+      "type": "default",
+      "icon": "sync",
+      "label": "Load Home Feed",
+      "extensionLabel": "Bridge: http://217.60.245.69:3001/home",
+      "action": "content:http://217.60.245.69:3001/home"
+    },
+    {
+      "type": "default",
+      "icon": "info",
+      "label": "LOG: Home Page Loaded from GitHub",
+      "extensionLabel": "Targeting Bridge on Port 3001",
+      "action": "message:This page is on GitHub. If 'Load Home Feed' fails, ensure 'node server.js' is running on port 3001 on your VDS."
+    }
+  ]
+}

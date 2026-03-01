@@ -1,0 +1,24 @@
+{
+  "name": "MSX Tube - Search Loader",
+  "version": "1.0.0",
+  "type": "list",
+  "search": {
+    "action": "content:http://217.60.245.69:3001/search?q={query}",
+    "label": "Search YouTube..."
+  },
+  "items": [
+    {
+      "type": "default",
+      "icon": "search",
+      "label": "Search YouTube",
+      "extensionLabel": "Bridge: http://217.60.245.69:3001",
+      "action": "panel:search"
+    },
+    {
+      "type": "default",
+      "icon": "info",
+      "label": "LOG: Search Page Loaded from GitHub",
+      "action": "message:If searching returns 'Content not available', ensure 'node server.js' is running on port 3001."
+    }
+  ]
+}

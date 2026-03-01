@@ -1,101 +1,20 @@
 {
-    "name": "Trending",
-    "type": "list",
-    "headline": "{ico:whatshot} Trending",
-    "style": "background:transparent",
-    "header": {
-        "icon": "whatshot",
-        "title": "Trending Now",
-        "titleFooter": "{col:msx-white-soft}What the world is watching"
+  "name": "MSX Tube - Trending Loader",
+  "version": "1.0.0",
+  "items": [
+    {
+      "type": "default",
+      "icon": "whatshot",
+      "label": "Load Trending List",
+      "extensionLabel": "Bridge: http://217.60.245.69:3001/trending",
+      "action": "content:http://217.60.245.69:3001/trending"
     },
-    "template": {
-        "type": "separate",
-        "layout": "0,0,6,3",
-        "imageFiller": "cover",
-        "iconSize": "small",
-        "progress": -1,
-        "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id={context:id}"
-    },
-    "items": [
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #1 ON TRENDING",
-            "badge": "{ico:visibility} 24M · {ico:thumb-up} 1.2M",
-            "title": "AI Revolution 2024",
-            "titleFooter": "{ico:verified}{col:msx-blue} Marques Brownlee · {col:msx-white-soft}2 hours ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "e-P5IFTqB98"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #2 ON TRENDING",
-            "badge": "{ico:visibility} 18M · {ico:thumb-up} 890K",
-            "title": "Most Expensive Foods",
-            "titleFooter": "{ico:verified}{col:msx-blue} MrBeast · {col:msx-white-soft}6 hours ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "DEW5panECnQ"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #3 ON TRENDING",
-            "badge": "{ico:visibility} 15M · {ico:thumb-up} 720K",
-            "title": "Epic Movie Trailer",
-            "titleFooter": "{ico:verified}{col:msx-blue} Universal Pictures · {col:msx-white-soft}1 day ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "JkaxUblCGz0"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #4 ON TRENDING",
-            "badge": "{ico:visibility} 12M · {ico:thumb-up} 650K",
-            "title": "Championship Highlights",
-            "titleFooter": "{ico:verified}{col:msx-blue} ESPN · {col:msx-white-soft}8 hours ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "oAPCPjnU1wA"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #5 ON TRENDING",
-            "badge": "{ico:visibility} 9M · {ico:thumb-up} 480K",
-            "title": "Celebrity Interview",
-            "titleFooter": "{ico:verified}{col:msx-blue} The Tonight Show · {col:msx-white-soft}12 hours ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "G7KNmW9a75Y"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #6 ON TRENDING",
-            "badge": "{ico:visibility} 7.5M · {ico:thumb-up} 320K",
-            "title": "New Music Video",
-            "titleFooter": "{ico:verified}{col:msx-blue} VEVO · {col:msx-white-soft}1 day ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "4NRXx6U8ABQ"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #7 ON TRENDING",
-            "badge": "{ico:visibility} 6M · {ico:thumb-up} 280K",
-            "title": "Science Explained",
-            "titleFooter": "{ico:verified}{col:msx-blue} Veritasium · {col:msx-white-soft}2 days ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "QqsLTNkzvaY"
-            }
-        },
-        {
-            "titleHeader": "{col:msx-red}{ico:whatshot} #8 ON TRENDING",
-            "badge": "{ico:visibility} 5M · {ico:thumb-up} 210K",
-            "title": "Viral Challenge",
-            "titleFooter": "{ico:person} TikTok Trends · {col:msx-white-soft}18 hours ago",
-            "image": "https://placehold.co/1280x720/0f0f0f/ff0000/png?text=Заблокирован+к+черту%0Aу+меня+пока+нет+сервера",
-            "properties": {
-                "id": "N6cp7vTFYnU"
-            }
-        }
-    ]
+    {
+      "type": "default",
+      "icon": "info",
+      "label": "LOG: Trending Page Loaded from GitHub",
+      "extensionLabel": "Targeting Bridge on Port 3001",
+      "action": "message:This page is on GitHub. If 'Load Trending List' fails, ensure 'node server.js' is running on port 3001 on your VDS."
+    }
+  ]
 }

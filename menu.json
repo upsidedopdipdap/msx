@@ -2,8 +2,6 @@
   "name": "INV // MSX",
   "version": "1.0.0",
   "headline": "I N V I D I O U S",
-  "transparent": 1,
-  "style": "default",
   "menu": [
     {
       "id": "trending",

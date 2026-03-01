@@ -1,5 +1,13 @@
 {
-  "name": "MSX Tube",
+  "name": "My Custom App",
   "version": "1.0.0",
-  "parameter": "menu:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/menu.json"
+  "parameter": "menu:request:http://217.60.245.69:5173/",
+  "items": [
+    {
+      "title": "Launch Web App",
+      "action": "link:http://217.60.245.69:5173/",
+      "icon": "open-in-new",
+      "type": "button"
+    }
+  ]
 }

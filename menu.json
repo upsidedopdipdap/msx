@@ -1,30 +1,43 @@
 {
-  "name": "Main Menu",
-  "version": "1.0.0",
-  "menu": [
+  "type": "pages",
+  "headline": "I N V I D I O U S",
+  "transparent": true,
+  "color": "#E2E2E2",
+  "backgroundColor": "#050505",
+  "selectionColor": "#050505",
+  "selectionBackgroundColor": "#E2E2E2",
+  "pages": [
     {
-      "icon": "home",
-      "label": "Home",
-      "action": "content:http://217.60.245.69:3001/home"
-    },
-    {
-      "icon": "whatshot",
-      "label": "Trending",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/trending.json"
-    },
-    {
-      "icon": "search",
-      "label": "Search",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/search_template.json"
-    }
-  ],
-  "items": [
-    {
-      "type": "default",
-      "icon": "play_arrow",
-      "label": "Welcome to MSX Tube",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/home.json"
+      "items": [
+        {
+          "type": "space",
+          "layout": "0,0,12,2"
+        },
+        {
+          "type": "button",
+          "layout": "2,2,8,1",
+          "label": "T R E N D I N G",
+          "description": "Observe the current global algorithmic consensus.",
+          "icon": "trending-up",
+          "action": "list:trending.json"
+        },
+        {
+          "type": "button",
+          "layout": "2,3,8,1",
+          "label": "S E A R C H",
+          "description": "Query the archive. No tracking. No algorithmic bias.",
+          "icon": "search",
+          "action": "search:search.json"
+        },
+        {
+          "type": "button",
+          "layout": "2,4,8,1",
+          "label": "S E T T I N G S",
+          "description": "Configure the gateway. Server: http://217.60.245.69:3000/",
+          "icon": "settings",
+          "action": "panel:settings.json"
+        }
+      ]
     }
   ]
 }
-

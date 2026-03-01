@@ -1,45 +1,6 @@
 {
   "name": "INV // MSX",
   "version": "1.0.0",
-  "type": "pages",
-  "headline": "I N V I D I O U S",
-  "transparent": true,
-  "color": "#E2E2E2",
-  "backgroundColor": "#050505",
-  "selectionColor": "#050505",
-  "selectionBackgroundColor": "#E2E2E2",
-  "pages": [
-    {
-      "items": [
-        {
-          "type": "space",
-          "layout": "0,0,12,2"
-        },
-        {
-          "type": "button",
-          "layout": "2,2,8,1",
-          "label": "T R E N D I N G",
-          "description": "Observe the current global algorithmic consensus.",
-          "icon": "trending-up",
-          "action": "panel:trending.json"
-        },
-        {
-          "type": "button",
-          "layout": "2,3,8,1",
-          "label": "S E A R C H",
-          "description": "Query the archive. No tracking. No algorithmic bias.",
-          "icon": "search",
-          "action": "search:search.json"
-        },
-        {
-          "type": "button",
-          "layout": "2,4,8,1",
-          "label": "S E T T I N G S",
-          "description": "Configure the gateway. Server: http://217.60.245.69:3000/",
-          "icon": "settings",
-          "action": "panel:settings.json"
-        }
-      ]
-    }
-  ]
+  "start": "menu:menu.json",
+  "parameter": "menu:menu.json"
 }

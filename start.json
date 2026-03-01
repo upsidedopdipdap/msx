@@ -1,6 +1,5 @@
 {
   "name": "MSX Tube",
   "version": "1.0.0",
-  "parameter": "menu:{\"items\":[{\"label\":\"Launch MSX Tube\",\"action\":\"link:http://217.60.245.69:5173\"}]}",
-  "ready": "link:http://217.60.245.69:5173"
+  "parameter": "menu:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/menu.json"
 }

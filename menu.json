@@ -19,7 +19,7 @@
           "label": "T R E N D I N G",
           "description": "Observe the current global algorithmic consensus.",
           "icon": "trending-up",
-          "action": "list:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/trending.json"
+          "action": "list:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/trending.json"
         },
         {
           "type": "button",
@@ -27,7 +27,7 @@
           "label": "S E A R C H",
           "description": "Query the archive. No tracking. No algorithmic bias.",
           "icon": "search",
-          "action": "search:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/search.json"
+          "action": "search:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/search.json"
         },
         {
           "type": "button",
@@ -35,7 +35,7 @@
           "label": "S E T T I N G S",
           "description": "Configure the gateway. Server: http://217.60.245.69:3000/",
           "icon": "settings",
-          "action": "panel:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/settings.json"
+          "action": "panel:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/settings.json"
         }
       ]
     }

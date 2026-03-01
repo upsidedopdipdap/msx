@@ -1,43 +1,30 @@
 {
-  "type": "pages",
+  "name": "INV // MSX",
+  "version": "1.0.0",
   "headline": "I N V I D I O U S",
-  "transparent": true,
-  "color": "#E2E2E2",
-  "backgroundColor": "#050505",
-  "selectionColor": "#050505",
-  "selectionBackgroundColor": "#E2E2E2",
-  "pages": [
+  "transparent": 1,
+  "style": "default",
+  "menu": [
     {
-      "items": [
-        {
-          "type": "space",
-          "layout": "0,0,12,2"
-        },
-        {
-          "type": "button",
-          "layout": "2,2,8,1",
-          "label": "T R E N D I N G",
-          "description": "Observe the current global algorithmic consensus.",
-          "icon": "trending-up",
-          "action": "list:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/trending.json"
-        },
-        {
-          "type": "button",
-          "layout": "2,3,8,1",
-          "label": "S E A R C H",
-          "description": "Query the archive. No tracking. No algorithmic bias.",
-          "icon": "search",
-          "action": "search:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/search.json"
-        },
-        {
-          "type": "button",
-          "layout": "2,4,8,1",
-          "label": "S E T T I N G S",
-          "description": "Configure the gateway. Server: http://217.60.245.69:3000/",
-          "icon": "settings",
-          "action": "panel:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/settings.json"
-        }
-      ]
+      "id": "trending",
+      "type": "default",
+      "icon": "trending-up",
+      "label": "T R E N D I N G",
+      "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/main/trending.json"
+    },
+    {
+      "id": "search",
+      "type": "default",
+      "icon": "search",
+      "label": "S E A R C H",
+      "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/main/search.json"
+    },
+    {
+      "id": "settings",
+      "type": "default",
+      "icon": "settings",
+      "label": "S E T T I N G S",
+      "data": "https://raw.githubusercontent.com/upsidedopdipdap/msx/main/settings.json"
     }
   ]
 }

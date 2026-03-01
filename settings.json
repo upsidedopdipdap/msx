@@ -1,0 +1,22 @@
+{
+  "name": "INV // MSX Settings",
+  "version": "1.0.0",
+  "headline": "S E T T I N G S",
+  "pages": [
+    {
+      "items": [
+        {
+          "type": "space",
+          "layout": "0,0,12,2"
+        },
+        {
+          "type": "button",
+          "layout": "2,2,8,1",
+          "label": "Gateway: http://217.60.245.69:3000/",
+          "icon": "info",
+          "action": "info:Server connected."
+        }
+      ]
+    }
+  ]
+}

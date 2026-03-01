@@ -1,6 +1,5 @@
 {
   "name": "INV // MSX",
   "version": "1.0.0",
-  "start": "menu:menu.json",
-  "parameter": "menu:menu.json"
+  "parameter": "menu:https://raw.githubusercontent.com/upsidedopdipdap/msx/refs/heads/main/menu.json"
 }

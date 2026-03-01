@@ -5,7 +5,7 @@
     {
       "icon": "home",
       "label": "Home",
-      "action": "content:https://raw.githubusercontent.com/upsidedopdipdap/msx/main/home.json"
+      "action": "content:http://217.60.245.69:3001/home"
     },
     {
       "icon": "whatshot",
@@ -27,3 +27,4 @@
     }
   ]
 }
+

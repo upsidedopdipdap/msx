@@ -1,20 +1,38 @@
 {
-  "name": "MSX Tube - Trending Loader",
-  "version": "1.0.0",
-  "items": [
+  "type": "list",
+  "headline": "T R E N D I N G",
+  "color": "#E2E2E2",
+  "backgroundColor": "#050505",
+  "selectionColor": "#050505",
+  "selectionBackgroundColor": "#E2E2E2",
+  "pages": [
     {
-      "type": "default",
-      "icon": "whatshot",
-      "label": "Load Trending List",
-      "extensionLabel": "Bridge: http://217.60.245.69:3001/trending",
-      "action": "content:http://217.60.245.69:3001/trending"
-    },
-    {
-      "type": "default",
-      "icon": "info",
-      "label": "LOG: Trending Page Loaded from GitHub",
-      "extensionLabel": "Targeting Bridge on Port 3001",
-      "action": "message:This page is on GitHub. If 'Load Trending List' fails, ensure 'node server.js' is running on port 3001 on your VDS."
+      "items": [
+        {
+          "type": "video",
+          "layout": "0,0,3,3",
+          "label": "Demo Video 1",
+          "description": "Video streams directly from the VDS Invidious API.",
+          "image": "http://217.60.245.69:3000/vi/dQw4w9WgXcQ/mqdefault.jpg",
+          "action": "video:http://217.60.245.69:3000/latest_version?id=dQw4w9WgXcQ&itag=18"
+        },
+        {
+          "type": "video",
+          "layout": "3,0,3,3",
+          "label": "Demo Video 2",
+          "description": "Proxy layer guarantees no client connection to YouTube.",
+          "image": "http://217.60.245.69:3000/vi/jNQXAC9IVRw/mqdefault.jpg",
+          "action": "video:http://217.60.245.69:3000/latest_version?id=jNQXAC9IVRw&itag=18"
+        },
+        {
+          "type": "video",
+          "layout": "6,0,3,3",
+          "label": "Demo Video 3",
+          "description": "720p H.264 stream for maximum compatibility.",
+          "image": "http://217.60.245.69:3000/vi/9bZkp7q19f0/mqdefault.jpg",
+          "action": "video:http://217.60.245.69:3000/latest_version?id=9bZkp7q19f0&itag=18"
+        }
+      ]
     }
   ]
 }
